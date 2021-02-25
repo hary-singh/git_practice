@@ -1,3 +1,4 @@
+require 'colorize'
 def puts_gitinfo(cmd)
     puts `git #{cmd} -h`
     menu
