@@ -6,6 +6,7 @@ end
 
 
 def menu
+    puts "Welcome!"
     puts "Main menu".colorize(:cyan)
     puts "1. Enter git command".colorize(:green)
     puts "2. Exit".colorize(:red)
