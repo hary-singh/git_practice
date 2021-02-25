@@ -15,7 +15,7 @@ def menu
         puts_gitinfo(gets.strip)
 
     when 2
-        Exit
+        exit 
     else
         puts "Invalid, try something else"
         menu
